@@ -8,8 +8,6 @@
 
 #scp107 p {
     position: relative;
-    margin: 0;
-    font-size: 1rem;
 }
 
 #scp107 p::before {
