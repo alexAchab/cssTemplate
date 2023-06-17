@@ -1,0 +1,28 @@
+@font-face {
+    font-display: fallback;
+    font-family: 'Gritstomper';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/Gritstomper.otf');
+}
+
+#scp107 p {
+    position: relative;
+}
+
+#scp107 p::before {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    content: "NOWHERE";
+    font-weight: 700;
+    font-size: 2.8rem;
+    letter-spacing: 0.2rem;
+}
+
+#scp107 p:hover::before {
+    font-size: 7rem;
+    top: -126%;
+    left: 0;
+    color: white;
+}
