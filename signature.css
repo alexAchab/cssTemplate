@@ -6,6 +6,15 @@
     src: url('fonts/Gritstomper.otf');
 }
 
+@font-face {
+    font-display: fallback;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/quicksand-v30-latin-regular.woff2') format('woff2');
+}
+
+/*ALEX*/
 #scp107 p {
     position: relative;
 }
@@ -25,4 +34,21 @@
     top: -126%;
     left: 0;
     color: #f6f6f6;
+}
+
+/*INNA*/
+#scp339 p>span {
+    color: green;
+    font-weight: 700;
+}
+
+#scp339>div {
+    position: relative;
+}
+
+#scp339>div:hover::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: url(img/ezgif.com-resize.gif);
 }
