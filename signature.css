@@ -49,6 +49,6 @@
 #scp339>div:hover::before {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 1px;
     content: url(https://i.goopics.net/m51ntr.gif);
 }
