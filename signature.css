@@ -14,6 +14,14 @@
     src: url('fonts/quicksand-v30-latin-regular.woff2') format('woff2');
 }
 
+@font-face {
+    font-display: fallback;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/merriweather-v30-latin-regular.woff2') format('woff2');
+}
+
 /*ALEX*/
 #scp107 p {
     position: relative;
@@ -51,4 +59,30 @@
     top: 0;
     left: 1px;
     content: url(https://i.goopics.net/m51ntr.gif);
+}
+
+/*ELINOR*/
+#scp149 p>span {
+    color: #880808;
+    font-weight: 700;
+}
+
+#scp149 img:first-child {
+    border-radius: 6px;
+    object-position: 50% 40%;
+}
+
+#scp149 img:last-child {
+    border-radius: 6px;
+    object-position: 50% 50%;
+}
+
+#scp149 img:first-child:hover {
+    content: url(https://i.goopics.net/nzqlia.gif);
+    object-position: 36% 90%;
+}
+
+#scp149 img:last-child:hover {
+    content: url(https://i.goopics.net/6xb7hx.gif);
+    object-position: 50% 50%;
 }
