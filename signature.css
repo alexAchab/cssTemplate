@@ -68,12 +68,10 @@
 }
 
 #scp149 img:first-child {
-    border-radius: 6px;
     object-position: 50% 40%;
 }
 
 #scp149 img:last-child {
-    border-radius: 6px;
     object-position: 50% 50%;
 }
 
