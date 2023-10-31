@@ -58,6 +58,7 @@ twitter identity names>certif {
 twitter img {
     max-width: 100%;
     object-fit: contain;
+    align-self: center;
 }
 
 twitter date {
