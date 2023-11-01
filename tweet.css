@@ -127,6 +127,7 @@ twitter a.postlink {
     color: #0066cc;
     text-decoration: none;
     outline: 0 none;
+    transition: unset;
 }
 
 twitter a:visited,
