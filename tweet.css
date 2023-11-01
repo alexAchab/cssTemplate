@@ -121,18 +121,22 @@ twitter replies>copy:hover {
     text-decoration: underline;
 }
 
-twitter a:link {
+twitter a:link,
+twitter a.postlink {
     font-weight: 400;
     color: #0066cc;
     text-decoration: none;
     outline: 0 none;
 }
 
-twitter a:visited {
+twitter a:visited,
+twitter a.postlink:visited {
     color: #0066cc;
 }
 
 twitter a:hover,
-twitter a:focus {
+twitter a:focus,
+twitter a.postlink:hover,
+twitter a.postlink:focus {
     text-decoration: underline !important;
 }
