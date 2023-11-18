@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 1.6rem;
     max-width: 100%;
-    padding: 0 1rem;
+    padding: 0 1.8rem;
 }
 
 .carm-flex>a {
@@ -18,7 +18,7 @@
 
 .carm-c p {
     margin: 2.4rem 0;
-    padding: 0 2.2rem;
+    padding: 0 2.6rem;
     font-family: Arial;
     font-size: 13px;
     line-height: 18px;
