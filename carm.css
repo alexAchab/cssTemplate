@@ -40,6 +40,10 @@
 }
 
 @media screen and (max-width: 380px) {
+    .carm-flex {
+        padding: 0 0.2rem;
+    }
+
     .carm-c p {
         padding: 0 0.2rem;
     }
