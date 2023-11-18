@@ -39,6 +39,13 @@
     transition: 0.8s
 }
 
+@media screen and (max-width: 380px) {
+    .carm-c p {
+        padding: 0 0.2rem;
+    }
+
+}
+
 alex {
     color: #370000;
 }
