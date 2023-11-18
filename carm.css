@@ -43,6 +43,11 @@
     .carm-flex {
         padding: 0 0.2rem;
     }
+
+    .carm-c p {
+        padding: 0 2rem;
+    }
+
 }
 
 alex {
