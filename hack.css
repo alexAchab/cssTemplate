@@ -27,7 +27,8 @@
     --clip-seven: polygon(0 63%, 100% 63%, 100% 80%, 95% 80%, 95% 80%, 85% 80%, 85% 80%, 8% 80%, 0 70%);
     position: relative;
     transition: background 0.2s;
-    margin: auto;
+    margin: 1.4rem auto;
+    max-width: fit-content;
 }
 
 .hack:after,
