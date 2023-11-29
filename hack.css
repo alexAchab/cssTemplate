@@ -29,6 +29,7 @@
     transition: background 0.2s;
     margin: 1.4rem auto;
     max-width: fit-content;
+    display: block;
 }
 
 .hack:after,
