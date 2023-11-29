@@ -1,14 +1,3 @@
-.sbjt-t1 {
-    color: #191E32;
-    font-size: 21px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    text-align: center;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
-    text-transform: uppercase;
-    max-width: 320px;
-}
-
 /*@author: https://gist.github.com/rlemon*/
 .hack {
     --primary: #ebeaeb;
@@ -40,12 +29,10 @@
     left: 0;
     right: 0;
     bottom: 0;
-    /*clip-path: var(--clip);*/
     z-index: -1;
 }
 
 .hack:before {
-    /*background: var(--shadow-primary);*/
     transform: translate(var(--border), 0);
 }
 
@@ -61,7 +48,6 @@
     bottom: calc(var(--border) * -1);
     background: var(--shadow-primary);
     text-shadow: 2px 2px var(--shadow-primary), -2px -2px var(--shadow-secondary);
-    /*clip-path: var(--clip);*/
     animation: glitch 2s infinite;
     display: none;
 }
@@ -71,6 +57,74 @@
 }
 
 .hack__glitch:before {
+    content: '';
+    position: absolute;
+    top: calc(var(--border) * 1);
+    right: calc(var(--border) * 1);
+    bottom: calc(var(--border) * 1);
+    left: calc(var(--border) * 1);
+    clip-path: var(--clip);
+    background: var(--primary);
+    z-index: -1;
+}
+
+.hack-min {
+    --primary: #f6f6f6;
+    --shadow-primary: #B29647;
+    --color: hsl(0, 0%, 100%);
+    --shadow-secondary: hsl(60, 90%, 60%);
+    --clip: polygon(0 0, 100% 0, 100% 100%, 95% 100%, 95% 90%, 85% 90%, 85% 100%, 8% 100%, 0 70%);
+    --border: 4px;
+    --shimmy-distance: 5;
+    --clip-one: polygon(0 2%, 100% 2%, 100% 95%, 95% 95%, 95% 90%, 85% 90%, 85% 95%, 8% 95%, 0 70%);
+    --clip-two: polygon(0 78%, 100% 78%, 100% 100%, 95% 100%, 95% 90%, 85% 90%, 85% 100%, 8% 100%, 0 78%);
+    --clip-three: polygon(0 44%, 100% 44%, 100% 54%, 95% 54%, 95% 54%, 85% 54%, 85% 54%, 8% 54%, 0 54%);
+    --clip-four: polygon(0 0, 100% 0, 100% 0, 95% 0, 95% 0, 85% 0, 85% 0, 8% 0, 0 0);
+    --clip-five: polygon(0 0, 100% 0, 100% 0, 95% 0, 95% 0, 85% 0, 85% 0, 8% 0, 0 0);
+    --clip-six: polygon(0 40%, 100% 40%, 100% 85%, 95% 85%, 95% 85%, 85% 85%, 85% 85%, 8% 85%, 0 70%);
+    --clip-seven: polygon(0 63%, 100% 63%, 100% 80%, 95% 80%, 95% 80%, 85% 80%, 85% 80%, 8% 80%, 0 70%);
+    position: relative;
+    transition: background 0.2s;
+    margin: 1.4rem auto;
+    max-width: fit-content;
+    display: block;
+}
+
+.hack-min:after,
+.hack-min:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.hack-min:before {
+    transform: translate(var(--border), 0);
+}
+
+.hack-min:after {
+    background: var(--primary);
+}
+
+.hack-min__glitch {
+    position: absolute;
+    top: calc(var(--border) * -1);
+    left: calc(var(--border) * -1);
+    right: calc(var(--border) * -1);
+    bottom: calc(var(--border) * -1);
+    text-shadow: 2px 2px var(--shadow-primary), -2px -2px var(--shadow-secondary);
+    animation: glitch 2s infinite;
+    display: none;
+}
+
+.hack-min:hover .hack-min__glitch {
+    display: block;
+}
+
+.hack-min__glitch:before {
     content: '';
     position: absolute;
     top: calc(var(--border) * 1);
