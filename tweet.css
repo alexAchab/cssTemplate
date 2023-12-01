@@ -33,7 +33,7 @@ twitter identity {
     font-size: 15px;
     padding-left: 2.8rem;
     line-height: 18px;
-    background-size: clamp(min(30px, 30px), 100%, max(38px, 38px));
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: 0 50%;
 }
