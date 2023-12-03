@@ -131,7 +131,8 @@ twitter replies>copy:hover {
 }
 
 twitter a:link,
-twitter a.postlink {
+twitter a.postlink,
+twitter a.postlink:link{
     font-weight: 400;
     color: #0066cc;
     text-decoration: none;
